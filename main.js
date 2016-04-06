@@ -72,10 +72,7 @@ $(document).ready(function(){
 		lettersOnScreen.pop();
 		$('#rocket-row .rockets:last').remove();
 		if(value == true){score++;}
-		else{
-			score = 0;
-			gameover = true;
-		}
+		else{score = 0;}
 		$('#score').html(score);
 	}
 
