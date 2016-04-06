@@ -1,0 +1,100 @@
+*{margin:0;padding:0;}
+body{
+	background-color:#c1e7ef;
+}
+#game{
+	height:700px;
+	width:100%;
+	bottom:0;
+	position: absolute;
+	overflow: hidden;
+}
+.background-wrapper{
+	height: 100%;
+	position: relative;
+}
+.back{
+	position: absolute;
+	height: 700px;
+	width: 100%;
+	background-repeat: repeat-x;
+	left: 0;
+	background-position:1px 1px;
+}
+#b1{
+	background-image: url("background/Land.png");
+	top: 600px;
+	height:110px;
+}
+#b2{
+	background-image: url("background/MountainA.png");
+	top: 450px;
+	height:251px;
+}
+#b3{
+	background-image: url("background/MountainB.png");
+	top: 481px;
+	height:400px;
+}
+#b4{
+	background-image: url("background/Sky.png");
+	top: 70px;
+	height:500px;
+}
+#b5{
+	background-image: url("background/Clouds.png");
+	z-index:800;
+}
+#zombie{
+	z-index: 820;
+	position: absolute;
+	right:0;
+	bottom:51px;
+	height:220px;
+}
+#rocket-row{
+	position: relative;
+	top:-226px;
+	left:-25%;
+	height: 100px;
+	width: 110%;
+}
+.rockets{
+	height:100px;
+	width:150px;
+	position: absolute;
+	left: 0;
+	color:white;
+	font-size: 60px;
+	margin-left:90px;
+	margin-top:51px;
+	z-index: 999;
+}
+.rockets p{
+	margin-top:-10px;
+	margin-left:55px;
+}
+.explode{
+	position: absolute;
+	height:120px;
+	width:120px;
+	z-index:999;
+	margin-left:146px;
+}
+img.singleRocket{
+	left:0;
+	width:250px;
+	margin-top:28px;
+	position: absolute;
+}
+#score{
+	height:100px;
+	position: absolute;
+	z-index: 999;
+	left:50%;
+	transform:translateX(-50%);
+	-moz-transform:translateX(-50%);
+	-webkit-transform:translateX(-50%);
+	color:pink;
+	font-size: 80px;
+}
